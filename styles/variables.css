@@ -1,1 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --main-font: Inter;
+    --accent-font: PressStart2P;
+    --title-font-weight: 700;
+    --text-font-weight: 400;
+    --bg-color: #fff;
+    --outline-color: #fff;
+    --accent-color: #000;
+    --main-inline-size: clamp(375px, 700px, 100%);
+    --main-font-size: 18px;
+    --pixel-font-size: 14px;
+    --contour-color: #000;
+    --animation-fill-color: #ff0000;
+}
