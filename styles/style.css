@@ -173,7 +173,6 @@
   font-size: var(--pixel-font-size, 14px);
   text-align: center;
   position: relative;
-  overflow: hidden;
   transition: box-shadow 0.3s ease;
   font-family: var(--accent-font), Impact;
   box-shadow: transparent;
@@ -302,7 +301,7 @@
   }
 
   .insert-window[open] {
-    padding-inline: 36px;
+    padding-inline: 40px;
   }
 
   .floppy-icon {
